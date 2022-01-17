@@ -1,0 +1,6 @@
+/* Подключение шрифтов и normalize */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+/* Подключаем стиль общего блока всего сайта */
+@import url(../blocks/page/page.css);
