@@ -1,0 +1,13 @@
+.header__image {
+  max-width: 100%;
+  max-height: 100%;
+  margin-top: 40px;
+}
+
+@include breakPoint("header__image", $bigTablet) {
+  margin-top: 126px;
+}
+
+@include breakPoint("header__image", $mobile) {
+  margin-top: 50px;
+}

@@ -1,0 +1,31 @@
+.header__second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 100px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: $bigTablet) {
+  .header__second-section {
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px auto;
+    min-width: 668px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .header__second-section {
+    margin: 50px auto 50px auto;
+  }
+}
+
+@media (max-width: 708px) {
+  .header__second-section {
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 50px 20px 20px 20px;
+    min-width: 280px;
+  }
+}

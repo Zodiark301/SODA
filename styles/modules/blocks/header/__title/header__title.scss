@@ -1,0 +1,40 @@
+.header__title {
+  font-family: $fontFamily;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 48px;
+  color: $primaryColor;
+  max-width: 400px;
+  margin: 0;
+  padding-bottom: 170px;
+}
+
+@media (max-width: 1330px) {
+  .header__title {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: $bigTablet) {
+  .header__title {
+    max-width: 300px;
+    padding-bottom: 0;
+    font-size: 30px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 708px) {
+  .header__title {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: $mobile) {
+  .header__title {
+    max-width: 225px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

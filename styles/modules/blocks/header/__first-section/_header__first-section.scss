@@ -1,0 +1,52 @@
+.header__first-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 783px;
+  margin: 40px 0 50px 50px;
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -24px;
+    right: -43px;
+    background: center no-repeat url(../images/icon-pineapple.png);
+    background-size: cover;
+    width: 130px;
+    height: 125px;
+    transform: rotate(10deg);
+    z-index: 2;
+  }
+}
+
+@media (max-width: $bigTablet) {
+  .header__first-section {
+    margin: 40px auto 0 auto;
+    max-width: 668px;
+
+    &::after {
+      bottom: 30px;
+      right: 30px;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .header__first-section {
+    margin: 20px auto 0 auto;
+    min-width: 280px;
+
+    &::after {
+      width: 84px;
+      height: 81px;
+      bottom: -32px;
+      right: 11px;
+    }
+  }
+}
+
+@media (max-width: 708px) {
+  .header__first-section {
+    margin: 20px 20px 0 20px;
+  }
+}

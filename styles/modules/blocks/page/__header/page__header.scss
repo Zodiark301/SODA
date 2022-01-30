@@ -1,0 +1,56 @@
+.page__header {
+  margin: 0 auto;
+  background-color: $fourthColor;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  /*header__icon*/
+  &:after {
+    position: absolute;
+    content: "";
+    top: 50px;
+    right: 50px;
+    background: center no-repeat url(../images/icon-earth.png);
+    background-size: cover;
+    width: 169px;
+    height: 169px;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 0 0 0 186px rgba(53, 48, 255, 0.2);
+  }
+}
+
+@media (max-width: 1330px) {
+  .page__header {
+    /*header__icon*/
+    &:after {
+      box-shadow: none;
+    }
+  }
+}
+
+@media (max-width: $bigTablet) {
+  .page__header {
+    flex-direction: column;
+
+    /*header__icon*/
+    &:after {
+      top: 40px;
+      width: 128px;
+      height: 128px;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .page__header {
+    /*header__icon*/
+    &:after {
+      top: 20px;
+      right: 20px;
+      width: 94px;
+      height: 94px;
+    }
+  }
+}

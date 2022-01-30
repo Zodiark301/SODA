@@ -1,0 +1,14 @@
+@import "../vendor/normalize.css";
+@import "../vendor/fonts/fonts.css";
+@import "../styles/modules/mixins.scss";
+@import "../styles/modules/variables.scss";
+
+/*header*/
+@import "./modules/blocks/page/__header/page__header.scss";
+@import "./modules/blocks/page/__button/page__button.scss";
+@import "./modules/blocks/header/__first-section/_header__first-section.scss";
+@import "./modules/blocks/header/__logo/header__logo.scss";
+@import "./modules/blocks/header/__image/header__image.scss";
+@import "./modules/blocks/header/__second-section/header__second-section.scss";
+@import "./modules/blocks/header/__title/header__title.scss";
+@import "./modules/blocks/header/__button/_header__button.scss";
