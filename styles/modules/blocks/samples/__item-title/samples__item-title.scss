@@ -1,0 +1,13 @@
+.samples__item-title {
+  font-family: $fontFamily;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 31px;
+  letter-spacing: 0.3px;
+  color: $primaryColor;
+}
+
+@include breakPoint("samples__item-title", $miniTablet) {
+  font-size: 14px;
+  line-height: 31px;
+}

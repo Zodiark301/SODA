@@ -1,0 +1,35 @@
+.samples__form {
+  display: grid;
+  box-sizing: border-box;
+  padding: 24px 30px 30px 30px;
+  background-color: $sixthColor;
+  min-width: 693px;
+  grid-column: 2;
+  grid-row: 1/4;
+  justify-self: end;
+}
+
+@media (max-width: 1400px) {
+  .samples__form {
+    grid-column: 1;
+    grid-row: 3;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 880px) {
+  .samples__form {
+    max-width: 600px;
+    min-width: 100%;
+  }
+}
+
+@include breakPoint("samples__form", $miniTablet) {
+  padding: 20px;
+}
+
+@media (max-width: 320px) {
+  .samples__form {
+    max-width: 260px;
+  }
+}
