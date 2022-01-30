@@ -1,0 +1,21 @@
+.samples__item-input {
+  padding: 0 0 13px 0;
+  margin-bottom: 13px;
+  border: 0;
+  outline: none;
+  border-bottom: 2px solid $primaryColor;
+  background-color: #016450;
+  font-family: $fontFamily;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  line-height: 31px;
+  color: $primaryColor;
+  cursor: pointer;
+}
+
+@include breakPoint("samples__item-input", $miniTablet) {
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 17px;
+}

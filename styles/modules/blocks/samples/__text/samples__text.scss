@@ -1,0 +1,25 @@
+.samples__text {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0.3px;
+  color: $secondaryColor;
+  max-width: 457px;
+  margin: 0;
+  padding: 48px 0 0 150px;
+  grid-column: 1;
+}
+
+@media (max-width: 1400px) {
+  .samples__text {
+    padding: 48px 0 100px 26px;
+  }
+}
+
+@include breakPoint("samples__text", $miniTablet) {
+  padding: 20px 10px 50px 10px;
+  font-size: 14px;
+  line-height: 19px;
+}
