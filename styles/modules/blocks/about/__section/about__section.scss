@@ -1,0 +1,7 @@
+.about__section {
+  margin: 0 50px;
+}
+
+@include breakPoint("about__section", $miniTablet) {
+  margin: 0 20px;
+}

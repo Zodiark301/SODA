@@ -1,0 +1,24 @@
+.about__border {
+  font-family: $fontFamily;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 36px;
+  color: $sixthColor;
+  text-transform: uppercase;
+  background-color: $fifthColor;
+  margin: 0;
+  margin-left: -93px;
+  padding: 20px 0;
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: $tablet) {
+  .about__border {
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: -109px;
+  }
+}

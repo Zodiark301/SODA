@@ -1,0 +1,87 @@
+.composition__list {
+  margin: 90px 100px 90px 0;
+  padding: 0;
+  min-width: 255px;
+  list-style: none;
+  grid-row: 1/5;
+  justify-self: end;
+
+  /*icon-big-ball*/
+  &:before {
+    position: absolute;
+    content: "";
+    bottom: 272px;
+    right: 533px;
+    background: center no-repeat url(../images/icon-big-ball.svg);
+    background-size: cover;
+    width: 185px;
+    height: 185px;
+    z-index: 2;
+  }
+  /*icon-small-ball*/
+  &:after {
+    position: absolute;
+    content: "";
+    bottom: 121px;
+    right: 481px;
+    background: center no-repeat url(../images/icon-small-ball.svg);
+    background-size: cover;
+    width: 138px;
+    height: 138px;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 1340px) {
+  .composition__list {
+    grid-row: 3;
+    justify-self: start;
+    margin: 100px 0 100px 100px;
+
+    /*icon-big-ball*/
+    &:before {
+      bottom: 430px;
+      right: 60px;
+    }
+    /*icon-small-ball*/
+    &:after {
+      bottom: 272px;
+      right: 60px;
+    }
+  }
+}
+
+@media (max-width: 1285px) {
+  .composition__list {
+    margin-left: 60px;
+  }
+}
+
+@include breakPoint("composition__list", $miniTablet) {
+  margin: 60px 0 60px 0;
+  min-width: 280px;
+
+  /*icon-big-ball*/
+  &:before {
+    right: 20px;
+    bottom: 300px;
+  }
+  /*icon-small-ball*/
+  &:after {
+    right: 20px;
+    bottom: 140px;
+  }
+}
+
+@media (max-width: 370px) {
+  .composition__list {
+    /*icon-big-ball*/
+    &:before {
+      display: none;
+    }
+    /*icon-small-ball*/
+    &:after {
+      display: none;
+    }
+  }
+}

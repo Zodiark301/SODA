@@ -1,0 +1,13 @@
+.slogan {
+  display: flex;
+  justify-content: space-between;
+  background-color: $primaryColor;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 1285px) {
+  .slogan {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,17 @@
+.about__main-title {
+  font-family: $fontFamily;
+  font-size: 60px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  color: $secondaryColor;
+  margin: 120px auto;
+  text-align: center;
+}
+
+@include breakPoint("about__main-title", $miniTablet) {
+  font-size: 20px;
+  line-height: 25px;
+  margin: 50px auto;
+}

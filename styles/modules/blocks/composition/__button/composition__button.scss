@@ -1,0 +1,21 @@
+.composition__button {
+  grid-row: 4;
+  margin: 0 0 90px 100px;
+  padding: 12px 21px;
+}
+
+@media (max-width: 1340px) {
+  .composition__button {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 1285px) {
+  .composition__button {
+    margin-left: 60px;
+  }
+}
+
+@include breakPoint("composition__button", $miniTablet) {
+  margin: 0 0 20px 20px;
+}

@@ -12,3 +12,23 @@
 @import "./modules/blocks/header/__second-section/header__second-section.scss";
 @import "./modules/blocks/header/__title/header__title.scss";
 @import "./modules/blocks/header/__button/_header__button.scss";
+
+/*main*/
+@import "./modules/blocks/content/__section/_content__section.scss";
+
+/*about*/
+@import "./modules/blocks/about/__border/about__border.scss";
+@import "./modules/blocks/about/__main-title/about__main-title.scss";
+@import "./modules/blocks/about/__section/about__section.scss";
+@import "./modules/blocks/about/__text/about__text.scss";
+@import "./modules/blocks/about/__title/about__title.scss";
+@import "./modules/blocks/tastes/tastes.scss";
+@import "./modules/blocks/tastes/__image/tastes__image.scss";
+@import "./modules/blocks/composition/composition.scss";
+@import "./modules/blocks/composition/__button/composition__button.scss";
+@import "./modules/blocks/composition/__item/composition__item.scss";
+@import "./modules/blocks/composition/__list/composition__list.scss";
+@import "./modules/blocks/slogan/slogan.scss";
+@import "./modules/blocks/slogan/__title/slogan__title.scss";
+@import "./modules/blocks/slogan/__title/_up/slogan__title_up.scss";
+@import "./modules/blocks/slogan/__image/slogan__image.scss";

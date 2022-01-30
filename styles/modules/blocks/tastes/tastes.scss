@@ -1,0 +1,11 @@
+.tastes {
+  display: flex;
+  justify-content: space-between;
+  background-color: $fourthColor;
+}
+
+@media (max-width: 1285px) {
+  .tastes {
+    flex-direction: column;
+  }
+}
