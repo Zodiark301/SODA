@@ -1,0 +1,19 @@
+.footer__copyright {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.3px;
+  color: $primaryColor;
+  margin: 0;
+  padding-top: 142px;
+  grid-row: 3;
+  grid-column: 1/3;
+}
+
+@media (max-width: $tablet) {
+  .footer__copyright {
+    padding: 50px 0 20px 0;
+  }
+}

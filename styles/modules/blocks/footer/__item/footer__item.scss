@@ -1,0 +1,18 @@
+.footer__item {
+  font-family: $fontFamily;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.3px;
+  color: $primaryColor;
+  margin: 0;
+  padding-bottom: 3px;
+  display: block;
+  text-decoration: none;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 70%;
+  }
+}

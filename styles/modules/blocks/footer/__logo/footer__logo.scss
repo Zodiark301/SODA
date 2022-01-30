@@ -1,0 +1,30 @@
+.footer__logo {
+  font-family: $fontFamily;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffa72b;
+  margin: 174px 0 0 224px;
+  padding: 62px 31px 62px 34px;
+  border-radius: 50%;
+  background-color: rgba(53, 48, 255, 0.3);
+  box-shadow: 0 0 0 39px rgba(85, 81, 255, 0.35), 0 0 0 74px #9960f6;
+}
+
+@media (max-width: 1200px) {
+  .footer__logo {
+    font-size: 20px;
+    line-height: 16px;
+    padding: 44px 22px 42px 23px;
+    margin: 170px 0 0 100px;
+    box-shadow: 0 0 0 26px rgba(85, 81, 255, 0.35), 0 0 0 49px #9960f6;
+  }
+}
+
+@media (max-width: $tablet) {
+  .footer__logo {
+    margin: 109px 109px 99px 109px;
+  }
+}

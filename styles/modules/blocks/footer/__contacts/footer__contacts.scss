@@ -1,0 +1,11 @@
+.footer__contacts {
+  grid-row: 2;
+}
+
+@media (max-width: $tablet) {
+  .footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,10 @@
+.page__footer {
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+@media (max-width: 1150px) {
+  .page__footer {
+    min-height: 470px;
+  }
+}

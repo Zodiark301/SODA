@@ -1,0 +1,19 @@
+.footer__menu {
+  margin: 100px 0 0 321px;
+  display: grid;
+}
+
+@media (max-width: 1200px) {
+  .footer__menu {
+    margin: 120px 0 0 149px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .footer__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+  }
+}
