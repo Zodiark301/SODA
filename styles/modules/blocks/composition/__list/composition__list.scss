@@ -51,6 +51,23 @@
   }
 }
 
+@media (max-width: 700px) {
+  .composition__list {
+    grid-row: 3;
+    justify-self: start;
+    margin: 100px 0 100px 100px;
+
+    /*icon-big-ball*/
+    &:before {
+      display: none;
+    }
+    /*icon-small-ball*/
+    &:after {
+      display: none;
+    }
+  }
+}
+
 @media (max-width: 1285px) {
   .composition__list {
     margin-left: 60px;
