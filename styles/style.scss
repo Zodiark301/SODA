@@ -4,6 +4,7 @@
 @import "../styles/modules/variables.scss";
 
 /*header*/
+@import "./modules/blocks/page/_page.scss";
 @import "./modules/blocks/page/__header/page__header.scss";
 @import "./modules/blocks/page/__button/page__button.scss";
 @import "./modules/blocks/header/__first-section/_header__first-section.scss";

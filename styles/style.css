@@ -1,6 +1,12 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts/fonts.css";
 /*header*/
+.page {
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
 .page__header {
   margin: 0 auto;
   background-color: #9960f6;
@@ -460,6 +466,21 @@
   .composition__list:after {
     bottom: 272px;
     right: 60px;
+  }
+}
+@media (max-width: 700px) {
+  .composition__list {
+    grid-row: 3;
+    justify-self: start;
+    margin: 100px 0 100px 100px;
+    /*icon-big-ball*/
+    /*icon-small-ball*/
+  }
+  .composition__list:before {
+    display: none;
+  }
+  .composition__list:after {
+    display: none;
   }
 }
 @media (max-width: 1285px) {
